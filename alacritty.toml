@@ -1,5 +1,4 @@
 live_config_reload = true
-import = ['~/.config/alacritty/catppuccin-mocha.yml']
 
 [cursor]
 style = "Block"
@@ -12,14 +11,12 @@ hide_when_typing = true
 program = "/usr/bin/zsh"
 
 [window]
-dynamic_padding = false
-opacity = 0.7
+dynamic_padding = true
+opacity = 1.0
 startup_mode = "Windowed"
+title = "Clacritty"
+decorations_theme_variant = "Dark"
 
 [window.dimensions]
-columns = 120
-lines = 30
-
-[window.padding]
-x = 0
-y = 0
+columns = 0
+lines = 0
