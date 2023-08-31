@@ -1,5 +1,11 @@
 live_config_reload = true
 
+[env]
+TERM =  "xterm-256color"
+
+
+
+
 [cursor]
 style = "Block"
 unfocused_hollow = true
@@ -12,7 +18,7 @@ program = "/usr/bin/zsh"
 
 [window]
 dynamic_padding = true
-opacity = 1.0
+opacity = 0.9
 startup_mode = "Windowed"
 title = "Clacritty"
 decorations_theme_variant = "Dark"
@@ -20,3 +26,45 @@ decorations_theme_variant = "Dark"
 [window.dimensions]
 columns = 0
 lines = 0
+
+[font]
+size = 11
+
+[font.normal]
+family = "FiraCodeNerdFontMono"
+style = "Regular"
+
+[font.italic]
+family = "FiraCodeNerdFont"
+style = "Light"
+
+[font.bold]
+family = "FiraCodeNerdFont"
+style = "Bold"
+
+[selection]
+save_to_clipboard = true
+
+[colors.primary]
+background = "0x002221"
+foreground = "0xe6f8f8"
+
+[colors.normal]
+black = "0x002221"
+red = "0xea3431"
+green = "0x00b6b6"
+yellow = "0xf8b017"
+blue = "0x4894fd"
+magenta = "0xe01dca"
+cyan = "0x1ab2ad"
+white = "0x99dddb"
+
+[colors.bright]
+black = "0x006562"
+red = "0xea3431"
+green = "0x00b6b6"
+yellow = "0xf8b017"
+blue = "0x4894fd"
+magenta = "0xe01dca"
+cyan = "0x1ab2ad"
+white = "0xe6f6f6"
